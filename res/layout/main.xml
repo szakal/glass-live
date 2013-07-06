@@ -3,26 +3,29 @@
                 android:orientation="vertical"
                 android:layout_width="640px"
                 android:layout_height="360px"
-                android:background="#FF0000"
-        >
+             >
 
-    <TextView android:id="@+id/previous"
-              android:layout_width="50px"
+<TextView android:id="@+id/previous"
+              android:layout_width="40px"
               android:gravity="center"
               android:layout_height="60px"
-              android:textSize="20dp"
+              android:textSize="40px"
               android:layout_centerVertical="true"
               android:text="<"
-            />
+              android:textColor="#fff"
+              android:fontFamily="Roboto"
+        />
 
     <TextView android:id="@+id/next"
-              android:layout_width="50px"
+              android:layout_width="40px"
               android:layout_height="60px"
               android:gravity="center"
               android:layout_centerVertical="true"
               android:text=">"
-              android:textSize="20dp"
+              android:textSize="40px"
+              android:textColor="#fff"
               android:layout_alignParentRight="true"
+              android:fontFamily="Roboto"
             />
 
 
@@ -30,6 +33,7 @@
             android:id="@+id/img"
             android:layout_width="100px"
             android:layout_height="100px"
+            android:layout_marginLeft="10px"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@id/previous"
             android:src="@drawable/avatar"/>
@@ -39,12 +43,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_toLeftOf="@id/next"
-            android:text="To jest tytul"
-            android:textSize="20dp"
+            android:text="To jest dluzszy jeszcze jeszcze jeszcze jeszcze tytul"
+            android:textSize="60px"
             android:gravity="center"
+            android:lineSpacingMultiplier="0.66"
             android:layout_toRightOf="@id/img"
-
-            />
+            android:typeface="sans"
+            android:textColor="#fff"
+            android:fontFamily="Roboto"/>
 
 
     <TextView
@@ -53,9 +59,12 @@
         android:layout_marginRight="10dp"
         android:text="..."
         android:gravity="right"
-        android:textSize="20dp"
+        android:textSize="40px"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true"
+        android:textColor="#fff"
+        android:fontFamily="Roboto"
+    />
 
 
 </RelativeLayout>
