@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">glass-live</string>
+
+
+    <string name="gcm_intent_service_class">com.glasshackathon.glass.live.MyGCMIntentService</string>
+    <string name="gcm_sender_id">207051269438735</string>
+
+    <string name="registration_url">http://bluebird-gcm.elasticbeanstalk.com/gcm/registration/register</string>
+    <string name="notification_response_activity">com.glasshackathon.glass.live.StartActivity</string>
+
+</resources>
